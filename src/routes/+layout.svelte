@@ -1,6 +1,9 @@
 <script lang="ts">
 	import './app.css';
+	// data
 	import navlinks from '$lib/data/navlinks.json';
+	// components
+	import Footer from '$lib/components/+Footer.svelte';
 </script>
 
 <div class="app">
@@ -35,6 +38,7 @@
 				</div>
 			</div>
 			<slot />
+			<Footer />
 		</div>
 		<div class="drawer-side">
 			<label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay" />

@@ -1,8 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	plugins: [require('daisyui')],
 	theme: {
+		colors: {
+			'background': '#121212',
+			'primary': '#FF7801',
+			'base': '#EAEAEA',
+			'black': '#000000',
+			'gray': '#262626',
+			'white': '#FFFFFF'
+		  },
 		extend: {}
 	},
-	plugins: [require('daisyui')]
+	daisyui: {
+		themes: [
+			{
+				baseTheme: {
+					'background': '#121212',
+					'primary': '#FF7801',
+					'base': '#EAEAEA',
+					'black': '#000000',
+					'gray': '#262626',
+					'white': '#FFFFFF'
+				}
+			}
+		],
+	},
 };

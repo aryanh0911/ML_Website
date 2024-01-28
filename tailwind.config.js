@@ -6,6 +6,7 @@ export default {
 		colors: {
 			'background': '#121212',
 			'primary': '#FF7801',
+			'secondary': '#7E41FF',
 			'base': '#EAEAEA',
 			'black': '#000000',
 			'gray': '#262626',
@@ -19,6 +20,7 @@ export default {
 				baseTheme: {
 					'background': '#121212',
 					'primary': '#FF7801',
+					'secondary': '#7E41FF',
 					'base': '#EAEAEA',
 					'black': '#000000',
 					'gray': '#262626',

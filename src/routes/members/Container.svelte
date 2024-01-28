@@ -41,7 +41,7 @@
         margin: 4rem auto;
         border-radius: 2rem;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url(/src/lib/membersLib/assets/images/armand-khoury-4cBVro7SHLs-unsplash.jpg);
+        url(MembersAssets/images/armand-khoury-4cBVro7SHLs-unsplash.jpg);
         background-size:contain;
         position: relative; 
         

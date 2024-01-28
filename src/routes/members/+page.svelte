@@ -1,7 +1,7 @@
 
 <script>
-    import Header from '$lib/membersLib/Header.svelte'
-    import Container from '$lib/membersLib/Container.svelte'
+    import Header from './Header.svelte'
+    import Container from './Container.svelte'
 </script>
 
 

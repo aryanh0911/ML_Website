@@ -1,4 +1,4 @@
-<footer class="footer footer-center p-10 rounded bg-black text-base">
+<footer class="footer footer-center p-10 bg-black text-sm border-t border-dashed border-[#ffffff28]">
 	<nav class="grid grid-flow-col gap-4">
 		<a class="link link-hover" href="/">About us</a>
 		<a class="link link-hover" href="/">Contact</a>
@@ -9,8 +9,8 @@
 			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
+					width="18"
+					height="18"
 					viewBox="0 0 24 24"
 					class="fill-base"
 					><path
@@ -21,8 +21,8 @@
 			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
+					width="18"
+					height="18"
 					viewBox="0 0 24 24"
 					class="fill-base"
 					><path
@@ -33,8 +33,8 @@
 			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
+					width="18"
+					height="18"
 					viewBox="0 0 24 24"
 					class="fill-base"
 					><path
@@ -45,6 +45,6 @@
 		</div>
 	</nav>
 	<aside>
-		<p>Copyright © 2023 - All right reserved by <span class="font-medium text-primary">Machine Learning Club, NIT Silchar</span>.</p>
+		<p>Copyright © {new Date().getFullYear()} - All right reserved by <span class="font-medium text-primary">Machine Learning Club, NIT Silchar</span>.</p>
 	</aside>
 </footer>

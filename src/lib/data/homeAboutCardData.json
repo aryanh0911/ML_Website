@@ -1,26 +1,26 @@
 [
     {
         "heading": "Weekly ML Classes",
-        "description": "Weekly Machine Learning classes to introduce students to machine learning and related fields"
+        "description": "Weekly classes to teach students eveything from basics to advanced"
     },
     {
         "heading": "Speaker Sessions",
-        "description": "Regular speaker sessions with relevant people."
+        "description": "Regular speaker sessions with relevant people working in the field"
     },
     {
         "heading": "Hackathons",
-        "description": "Neurathon is conducted etc. etc."
+        "description": "Our very own ML-based hackathon named 'Neurathon'"
     },
     {
-        "heading": "Paper Reading Session",
-        "description": "Paper reading sessions regularly"
+        "heading": "Paper Reading Sessions",
+        "description": "Regular paper-reading sessions"
     },
     {
         "heading": "Workshops",
-        "description": "Weekly Machine Learning classes to introduce students to machine learning, data science and aritificial intelligence"
+        "description": "Hands-on community workshops to polish your practical skills"
     },
     {
         "heading": "Projects",
-        "description": "Weekly Machine Learning classes to introduce students to machine learning, data science and aritificial intelligence"
+        "description": "Development of innovative projects solving real-world issues"
     }
 ]

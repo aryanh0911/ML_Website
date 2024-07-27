@@ -42,6 +42,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})
@@ -54,6 +55,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})
@@ -68,6 +70,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})
@@ -79,12 +82,13 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})
 		.from('.RulesSNo, .RulesText', {
 			opacity: 0,
-			y: 24,
+			y: 14,
 			stagger: 2,
 			// ease:"expo.out",
 			duration: 3,
@@ -93,6 +97,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 50%',
+				once: true,
 				// markers: true,
 			}
 		})
@@ -104,6 +109,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})
@@ -116,6 +122,7 @@
 				scrub: 2,
 				start: 'top 90%',
 				end: 'bottom 70%',
+				once: true,
 				// markers: true,
 			}
 		})

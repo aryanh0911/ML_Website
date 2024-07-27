@@ -26,102 +26,102 @@ const data = [
     },
     {
         id: 3,
-        projectName: 'Project-1',
+        projectName: 'Segmented sequence modeling in Indian classical music',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'This paper is published under IEEE Silicon Conference 2022. The idea of learning the domain knowledge using Variational AutoEncoder(VAE) to detect the stated landmark in Indian Classical Music(ICM).',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Yash Tripathi', 'Shuvra Neel Roy']
     },
     {
         id: 4,
-        projectName: 'Project-1',
+        projectName: 'Textual Entailment as an Evaluation Metric for Abstractive Text Summarization',
         projectType: 'Research Paper',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'This project is an NLP model which summarizes text using technique Abstract Summarization with the help of Textual Entailment.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Kavii Suri', 'Saranga K. Mahanta', 'Swagat Bhuyan']
     },
     {
         id: 5,
-        projectName: 'Project-1',
+        projectName: 'Emotion Detection in Images of Faces',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'This was a Keras model that does a happy/sad classification of images of faces. This project was made using Convolutional Neural Network under deeplearning.ai specialization on Coursera.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Yash Tripathi']
     },
     {
         id: 6,
-        projectName: 'Project-1',
+        projectName: 'Autonomous driving application Car detection',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'This project was a Keras model that detects objects such as cars, buses, pedestrians, etc which are in the image taken by the front camera of the car. This project is made using YOLO algorithm and Convolutional Neural Network in deeplearning.ai specialization on Coursera.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Yash Tripathi']
     },
     {
         id: 7,
-        projectName: 'Project-1',
+        projectName: 'RoadMent',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'An end-to-end project based on Image Segmentation. A website was developed, where if a useruploads a satellite image the model will segment out the roads from the images. The U-Net architecture was used for our model and it was a group project. Main role here was to handle the data, build the model and fine tune it accordingly. Model perfomance was based on IoU score and the loss was Dice-Coefficient loss. Training IoUscore was 0.497 and validation IoU score was 0.415. It was the 2nd Best Project from East Zone in Anveshan National Student Research Convention 2021-2022 and was in Anveshan representing NIT Silchar.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Krishnav Rajbangshi', 'Md.Faizal Karim']
     },
     {
         id: 8,
-        projectName: 'Project-1',
+        projectName: 'Clean/Dirty Road Classifier',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'Project is based on ConvNets and Transfer Learning, and is used to identify whether a road is clean or dirty. MobileNet was used as our base architecture and the weights are based on imagenNet. Web Scraping techniques were used to download images of both clean and dirty roads from the internet. The results of this model was pretty good, with a training accuracy of 97.1% and validation accuracy of 91.6%.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Krishnav Rajbangshi','Md.Faizal Karim']
     },
     {
         id: 9,
-        projectName: 'Project-1',
+        projectName: 'DiagnoAI',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: "DiagnoAI is a tool to detect a disease from a text description of the patient's symptoms and daily condition. It is based on a transformer model called BERT, fine-tuned for 24 common diseases.",
         github: '',
         paper: '',
-        members: ['']
+        members: ['Krish Sharma', 'Md. Faizal karim', 'Niyar R barman']
     },
     {
         id: 10,
-        projectName: 'Project-1',
+        projectName: 'CalmSpace',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: "CalmSpace is an end to end sentiment analysis platform where the user can record or upload the recorded files of their emotion and the deep learning model will learn through algorithm like RNN Model Architecture, and will predict the emotion of the voice . The sentiment analysis will be shown through various graph plot in much understandable way.",
         github: '',
         paper: '',
-        members: ['']
+        members: ['Krish Sharma']
     },
     {
         id: 11,
-        projectName: 'Project-1',
+        projectName: 'Flood Segmentation',
         projectType: 'Project',
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
-        longDesc: '',
+        longDesc: 'Flood segmentation is a deep learning model that segments flooded area from aerial images.',
         github: '',
         paper: '',
-        members: ['']
+        members: ['Krish Sharma', 'Md.Faizal Karim']
     },
 ]
 

@@ -12,10 +12,10 @@
             </div>
         </div>
 		<div class="text">
-			<div class="text-5xl lg:text-[4rem] tracking-wider lowercase">
-				Neurathon.
+			<div class="Neurathon text-5xl lg:text-[4rem] tracking-wider lowercase">
+				<span>N</span><span>e</span><span>u</span><span>r</span><span>a</span><span>t</span><span>h</span><span>o</span><span>n</span><span>.</span>
 			</div>
-            <div class="text-lg lg:text-xl">A.I. for good</div>
+            <div class="TagLine text-lg lg:text-xl">A.I. for good</div>
 		</div>
 	</div>
 </section>

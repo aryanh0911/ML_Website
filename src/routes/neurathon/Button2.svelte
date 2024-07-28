@@ -1,5 +1,5 @@
 <script lang="ts">
-    // Props
+    // Props ---
     export let ButtonText: string;
     export let redirect: string;
 
@@ -8,13 +8,11 @@
 			setTimeout(() => {
 				window.open(redirect, '_blank');
 			}, 500);
-			console.log(ButtonText)
 		}
 		else {
 			setTimeout(() => {
 				window.location.href = redirect;
 			}, 500);
-			console.log(ButtonText)
 		}
     }
 </script>

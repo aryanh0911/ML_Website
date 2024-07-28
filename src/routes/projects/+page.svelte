@@ -12,6 +12,8 @@
 					ProjectName={data.projectName}
 					ProjectDesc={data.longDesc}
 					Members={data.members}
+					GithubLink={data.github}
+					PaperLink={data.paper}
 				/>
 			{/each}
 		</div>

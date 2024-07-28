@@ -32,7 +32,7 @@ const data = [
         shortDesc: 'One liner about the project/paper',
         longDesc: 'This paper is published under IEEE Silicon Conference 2022. The idea of learning the domain knowledge using Variational AutoEncoder(VAE) to detect the stated landmark in Indian Classical Music(ICM).',
         github: '',
-        paper: '',
+        paper: 'https://ieeexplore.ieee.org/document/10028921',
         members: ['Yash Tripathi', 'Shuvra Neel Roy']
     },
     {
@@ -53,7 +53,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: 'This was a Keras model that does a happy/sad classification of images of faces. This project was made using Convolutional Neural Network under deeplearning.ai specialization on Coursera.',
-        github: '',
+        github: 'https://github.com/YashTripathi-1729-19/Deep-Learning-Note-Books/blob/main/Face_Recognition_v3a.ipynb',
         paper: '',
         members: ['Yash Tripathi']
     },
@@ -64,7 +64,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: 'This project was a Keras model that detects objects such as cars, buses, pedestrians, etc which are in the image taken by the front camera of the car. This project is made using YOLO algorithm and Convolutional Neural Network in deeplearning.ai specialization on Coursera.',
-        github: '',
+        github: 'https://github.com/YashTripathi-1729-19/Deep-Learning-Note-Books/blob/main/Autonomous_driving_application_Car_detection_v3a.ipynb',
         paper: '',
         members: ['Yash Tripathi']
     },
@@ -75,7 +75,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: 'An end-to-end project based on Image Segmentation. A website was developed, where if a useruploads a satellite image the model will segment out the roads from the images. The U-Net architecture was used for our model and it was a group project. Main role here was to handle the data, build the model and fine tune it accordingly. Model perfomance was based on IoU score and the loss was Dice-Coefficient loss. Training IoUscore was 0.497 and validation IoU score was 0.415. It was the 2nd Best Project from East Zone in Anveshan National Student Research Convention 2021-2022 and was in Anveshan representing NIT Silchar.',
-        github: '',
+        github: 'https://github.com/Krishnav-Rajbangshi/Roadment',
         paper: '',
         members: ['Krishnav Rajbangshi', 'Md.Faizal Karim']
     },
@@ -86,7 +86,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: 'Project is based on ConvNets and Transfer Learning, and is used to identify whether a road is clean or dirty. MobileNet was used as our base architecture and the weights are based on imagenNet. Web Scraping techniques were used to download images of both clean and dirty roads from the internet. The results of this model was pretty good, with a training accuracy of 97.1% and validation accuracy of 91.6%.',
-        github: '',
+        github: 'https://github.com/Krishnav-Rajbangshi/Clean-Dirty-Road-Classifier',
         paper: '',
         members: ['Krishnav Rajbangshi','Md.Faizal Karim']
     },
@@ -97,7 +97,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: "DiagnoAI is a tool to detect a disease from a text description of the patient's symptoms and daily condition. It is based on a transformer model called BERT, fine-tuned for 24 common diseases.",
-        github: '',
+        github: 'https://github.com/Krish2002/DiagnoAI',
         paper: '',
         members: ['Krish Sharma', 'Md. Faizal karim', 'Niyar R barman']
     },
@@ -108,7 +108,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: "CalmSpace is an end to end sentiment analysis platform where the user can record or upload the recorded files of their emotion and the deep learning model will learn through algorithm like RNN Model Architecture, and will predict the emotion of the voice . The sentiment analysis will be shown through various graph plot in much understandable way.",
-        github: '',
+        github: 'https://github.com/Krish2002/calmspace',
         paper: '',
         members: ['Krish Sharma']
     },
@@ -119,7 +119,7 @@ const data = [
         projectImg: projectImage,
         shortDesc: 'One liner about the project/paper',
         longDesc: 'Flood segmentation is a deep learning model that segments flooded area from aerial images.',
-        github: '',
+        github: 'https://github.com/Krish2002/Flood-Segmentation',
         paper: '',
         members: ['Krish Sharma', 'Md.Faizal Karim']
     },

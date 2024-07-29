@@ -23,7 +23,8 @@
 				scrub: 1.5,
 				start: 'top 80%',
 				end: 'bottom 70%',
-				markers: true,
+				once: true,
+				// markers: true,
 			}
 		})
 		.from('.aboutCard', {
@@ -36,7 +37,8 @@
 				trigger: '.aboutCard',
 				scrub: 1.5,
 				start: 'top 80%',
-				end: 'bottom 80%'
+				end: 'bottom 80%',
+				once: true,
 			}
 		}, '-=3')
 		.from('#projectShowcase', {
@@ -48,7 +50,8 @@
 				scrub: 2,
 				start: 'top 80%',
 				end: 'bottom 70%',
-				markers: true,
+				once: true,
+				// markers: true,
 			}
 		})
 
@@ -87,7 +90,7 @@
 				<div
 					class="tiles grid grid-rows-[auto_auto] lg:grid-rows-[auto_auto_auto] grid-flow-col overflow-x-scroll lg:overflow-x-hidden gap-3 lg:gap-2 pb-[.4rem] snap-x snap-mandatory"
 				>
-					{#each cardData as card}
+					{#each cardData as card, index}
 						<HomeAboutCard heading={card.heading} description={card.description} />
 					{/each}
 				</div>

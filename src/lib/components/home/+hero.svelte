@@ -57,7 +57,20 @@
 					duration: 0.3
 				},
 				'-=.6'
-			);
+			)
+            .from('.project-showcase-card', {
+                opacity: 0,
+                stagger: .13,
+
+                scrollTrigger: {
+                    trigger: '.project-showcase-card',
+                    scrub: 3,
+                    start: 'top 80%',
+                    end: 'bottom 80%',
+                    once: true,
+                    // markers: true,
+                }
+            })
 	});
 </script>
 

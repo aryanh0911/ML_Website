@@ -1,12 +1,17 @@
 <script lang="ts">
-	export let image: string;
-	export let projectType: string;
-	export let projectName: string;
-	export let oneliner: string;
+	export let image:string
+	export let projectType:string
+	export let projectName:string
+	export let oneliner:string
+
+	function handleClick() {
+		window.location.href = '/projects'
+	}
 </script>
 
 <div
-	class="card shrink-0 snap-center aspect-[5/4.5] w-[17.88rem] md:w-[19.75rem] bg-[#191919] rounded-[4px] overflow-hidden relative"
+	class="project-showcase-card card shrink-0 snap-center aspect-[5/4.5] w-[17.7rem] md:w-[19.75rem] bg-[#191919] rounded-[4px] overflow-hidden relative"
+	on:click={handleClick}
 >
 	<div class="image-container h-[90%] overflow-hidden relative">
 		<img src={image} alt="overview of project" class="object-cover" />

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import CardData from '$lib/data/projectsData.js';
 	import Card from './card.svelte';
+
+
 </script>
 
 <section class="">
@@ -8,7 +10,7 @@
 		<div
 			class="slider flex flex-nowrap gap-2 overflow-x-scroll max-w-[80rem] pb-[.3rem] snap-x snap-mandatory"
 		>
-			{#each CardData as data}
+			{#each CardData as data, index}
 				<Card
 					image={data.projectImg}
 					projectType={data.projectType}

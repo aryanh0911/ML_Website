@@ -3,7 +3,6 @@
 	import cyborgImg from '$lib/images/Neurathon/hero/cyborg-black.jpg';
 </script>
 
-<!-- Mobile -->
 <section class="flex justify-center px-0 md:px-10">
 	<div class="wrapper w-full">
         <div class="image-wrapper">

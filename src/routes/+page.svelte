@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section>
-	<!-- <Hero /> -->
+	<Hero />
 	<About />
 	<HomeProjects />
 </section>

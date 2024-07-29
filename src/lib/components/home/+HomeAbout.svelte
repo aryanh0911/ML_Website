@@ -1,16 +1,68 @@
 <script lang="ts">
 	import HomeAboutCard from './+HomeAboutCard.svelte';
 	import cardData from '$lib/data/homeAboutCardData.json';
+
+	//Plugins ---
+	import { gsap } from 'gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	gsap.registerPlugin(ScrollTrigger);
+	import { onMount } from 'svelte';
+
+	//GSAP ---
+	onMount(()=>{
+		gsap.set('*', { visibility: 'visible'})
+
+		let tl = gsap.timeline()
+		tl.from('#stuffWeDo, #stuffWeDo-content', {
+			opacity: 0,
+			scale: .97,
+			stagger: 1,
+
+			scrollTrigger: {
+				trigger: '#stuffWeDo',
+				scrub: 1.5,
+				start: 'top 80%',
+				end: 'bottom 70%',
+				markers: true,
+			}
+		})
+		.from('.aboutCard', {
+			opacity: 0,
+			scale: .98,
+			stagger: .5,
+			ease: 'back.in',
+
+			scrollTrigger: {
+				trigger: '.aboutCard',
+				scrub: 1.5,
+				start: 'top 80%',
+				end: 'bottom 80%'
+			}
+		}, '-=3')
+		.from('#projectShowcase', {
+			opacity: 0,
+			scale: .98,
+
+			scrollTrigger: {
+				trigger: '#projectShowcase',
+				scrub: 2,
+				start: 'top 80%',
+				end: 'bottom 70%',
+				markers: true,
+			}
+		})
+
+	})
 </script>
 
 <section class="w-full flex justify-center pt-20">
 	<section class="w-full max-w-6xl xl:max-w-7xl py-10 px-7">
-		<h2 class="uppercase text-center text-secondary font-bold text-3xl md:text-4xl">
+		<h2 id="stuffWeDo" class="uppercase text-center text-secondary font-bold text-3xl md:text-4xl">
 			The stuff we do
 		</h2>
 		<div class="py-12 grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-10">
 			<div class="text-wrapper flex justify-center">
-				<div class="text-sm md:text-[1rem] max-w-[43rem]">
+				<div id="stuffWeDo-content" class="text-sm md:text-[1rem] max-w-[43rem]">
 					<p class="pb-4">
 						Welcome to the Machine Learning Club of NIT Silchar, where we foster a vibrant community
 						of students passionate about artificial intelligence and machine learning. If you're a
@@ -45,6 +97,10 @@
 </section>
 
 <style>
+	*{
+		visibility: hidden;
+	}
+
 	.tiles::-webkit-scrollbar {
 		height: 0.3rem;
 	}

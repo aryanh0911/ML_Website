@@ -1,28 +1,7 @@
-<!-- <script>
-    import nodesImg from '$lib/images/Home/nodes.jpg'
-    import twinklingTilesImg from '$lib/images/Home/twinkling_tiles.gif'
-    import movingPlanesImg from '$lib/images/Home/moving_planes_hq.gif'
-</script>
-
-
-<section class=" bg-[#0C0C0C] pt-16 flex justify-center">
-    <div class="wrapper min-h-[100vh]  w-full flex justify-center">
-        <img src={nodesImg} alt="" class="object-cover w-full">
-        <div class="Heading">Machine Learning</div>
-    </div>
-</section>
-
-
-<style>
-    .Heading {
-        position: absolute;
-        top: 20%;
-    }
-</style> -->
-
 <script>
 	import cloneImg from '$lib/images/Neurathon/hero/clone-black.jpg';
 	import cyborgImg from '$lib/images/Neurathon/hero/cyborg-black.jpg';
+	import inscribedGIF from '$lib/images/Home/inscribed-cropped.gif'
 
 	//Plugins ---
 	import { gsap } from 'gsap';
@@ -58,6 +37,11 @@
 				},
 				'-=.6'
 			)
+			.from('.homeAccessorialImg', {
+				opacity: 0,
+				scale: .9,
+				duration: 1,
+			})
             .from('.project-showcase-card', {
                 opacity: 0,
                 stagger: .13,
@@ -99,7 +83,10 @@
                     </div>
 				</div>
 			</div>
-			<div class="TagLine text-lg opacity-75 lg:text-xl pt-3">Innovate beyond boundaries.</div>
+			<div class="TagLine text-lg opacity-75 lg:text-xl pt-2">Innovate beyond boundaries.</div>
+			<div class="homeAccessorialImg">
+				<img src={inscribedGIF} alt="" class="w-[8rem] mx-auto">
+			</div>
 		</div>
 	</div>
 </section>
@@ -153,5 +140,13 @@
         @media (min-width: 1280px) {
             padding-right: 2.3rem;
         }
+	}
+
+	.homeAccessorialImg {
+		display: none;
+
+		@media (min-width: 1280px) {
+			display: block;
+		}
 	}
 </style>

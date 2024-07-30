@@ -32,6 +32,11 @@
 			opacity: 0,
 			duration: .3
 		}, "-=.6")
+		.from('.neuraAccessorialImg', {
+			opacity: 0,
+			scale: .9,
+			duration: 1,
+		})
 		.from('.AboutNeuraHeading, .AboutNeuraText, .AboutNeuraButtons', {
 			opacity: 0,
 			// y: 24,

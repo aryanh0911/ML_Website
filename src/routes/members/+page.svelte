@@ -6,7 +6,7 @@
 
 
 
-<div>
+<div class="pt-16">
     <Header />
     <Container />
 </div>

@@ -58,7 +58,7 @@
 	})
 </script>
 
-<section class="w-full flex justify-center pt-20">
+<section class="w-full flex justify-center pt-16">
 	<section class="w-full max-w-6xl xl:max-w-7xl py-10 px-7">
 		<h2 id="stuffWeDo" class="uppercase text-center text-secondary font-bold text-3xl md:text-4xl">
 			The stuff we do

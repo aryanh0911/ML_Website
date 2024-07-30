@@ -10,10 +10,10 @@
 		{#each FAQData as data}
 			<div class="FAQTile collapse collapse-arrow bg-gray rounded-lg">
 				<input type="checkbox" class="peer" />
-				<div class="collapse-title text-[1rem] font-medium peer-checked:bg-[#2e2e2e]">
+				<div class="collapse-title text-sm md:text-[1rem] font-medium peer-checked:bg-[#2e2e2e]">
 					{data.question}
 				</div>
-				<div class="collapse-content text-[.87rem] md:text-[.9rem] peer-checked:collapse-open peer-checked:bg-[#2e2e2e] text-[#bcbcbce1]">
+				<div class="collapse-content text-sm md:text-[.9rem] peer-checked:collapse-open peer-checked:bg-[#2e2e2e] text-[#bcbcbce1]">
 					<p>{data.answer}</p>
 				</div>
 			</div>

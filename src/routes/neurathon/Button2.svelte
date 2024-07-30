@@ -18,7 +18,7 @@
 </script>
 
 <div on:click={handleClick}>
-    <span class="text">{ButtonText}</span>
+    <span class="text text-[.9rem] md:text-lg">{ButtonText}</span>
     <span class="line -right"></span>
     <span class="line -top"></span>
     <span class="line -left"></span>

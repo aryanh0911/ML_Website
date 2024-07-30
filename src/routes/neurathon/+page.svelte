@@ -36,7 +36,7 @@
 			opacity: 0,
 			scale: .9,
 			duration: 1,
-		})
+		}, '-=.5')
 		.from('.AboutNeuraHeading, .AboutNeuraText, .AboutNeuraButtons', {
 			opacity: 0,
 			// y: 24,

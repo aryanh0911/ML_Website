@@ -41,7 +41,7 @@
 				opacity: 0,
 				scale: .9,
 				duration: 1,
-			})
+			}, '-=.5')
             .from('.project-showcase-card', {
                 opacity: 0,
                 stagger: .13,

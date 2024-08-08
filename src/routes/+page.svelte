@@ -1,4 +1,7 @@
 <script>
+	import About from '$lib/components/home/+HomeAbout.svelte';
+	import HomeProjects from '$lib/components/home/+HomeProjects.svelte';
+	import Hero from '$lib/components/home/+hero.svelte';
 </script>
 
 <svelte:head>
@@ -7,5 +10,7 @@
 </svelte:head>
 
 <section>
-	<h1>Home page</h1>
+	<Hero />
+	<About />
+	<HomeProjects />
 </section>

@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"title": "Home",
+		"url": "/"
+	},
+	{
+		"id": 2,
+		"title": "Members",
+		"url": "/members"
+	},
+	{
+		"id": 3,
+		"title": "Projects",
+		"url": "/projects"
+	},
+	{
+		"id": 4,
+		"title": "Blogs",
+		"url": "https://mlclubnits.hashnode.dev/"
+	},
+	{
+		"id": 5,
+		"title": "Neurathon",
+		"url": "/neurathon"
+	}
+]

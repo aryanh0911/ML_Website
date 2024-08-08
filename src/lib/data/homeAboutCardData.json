@@ -1,0 +1,26 @@
+[
+    {
+        "heading": "Weekly ML Classes",
+        "description": "Weekly classes to teach students eveything from basics to advanced"
+    },
+    {
+        "heading": "Speaker Sessions",
+        "description": "Regular speaker sessions with relevant people working in the field"
+    },
+    {
+        "heading": "Hackathons",
+        "description": "Our very own ML-based hackathon named 'Neurathon'"
+    },
+    {
+        "heading": "Paper Reading Sessions",
+        "description": "Regular paper-reading sessions"
+    },
+    {
+        "heading": "Workshops",
+        "description": "Hands-on community workshops to polish your practical skills"
+    },
+    {
+        "heading": "Projects",
+        "description": "Development of innovative projects solving real-world issues"
+    }
+]

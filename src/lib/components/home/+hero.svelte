@@ -119,8 +119,8 @@
 		scale: 1.4;
 		max-width: 470px;
 		@media (min-width: 768px) {
-			top: 60%;
-			scale: 1.55;
+			top: 58%;
+			scale: 1.42;
 		}
 		@media (min-width: 1280px) {
 			left: 8%;

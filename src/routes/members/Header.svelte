@@ -5,7 +5,7 @@
 
 
 <div>
-    <h1 class="heading">MEET THE <span style="text-decoration: underline #ff7801;">TEAM</span> </h1>
+    <h1 class="heading text-2xl text-secondary">MEET THE <span style="text-decoration: underline #ff7801;">TEAM</span> </h1>
     <hr>
 </div>
 
@@ -19,10 +19,10 @@
     .heading {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        letter-spacing: .4rem;
+        letter-spacing: .1rem;
         word-spacing: .6rem;
-        padding-top: 4rem;
-        padding-bottom: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         color: rgba(255, 255, 255, 0.836);
         justify-content: center;
         text-align: center;
@@ -30,7 +30,8 @@
 
     hr {
         max-width: 90%;
-        border-color: #726868;
+        border-style: dashed;
+        border-color: #72686888;
         margin: 0 auto;
     }
 

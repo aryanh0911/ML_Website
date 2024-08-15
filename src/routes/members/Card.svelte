@@ -1,12 +1,32 @@
-<script>
-    export let memberImg, memberName, memberRole, githubLink, linkedInLink, facebookLink;
+<script lang="ts">
+    export let memberImg : string 
+    export let memberName : string 
+    export let memberRole : string
+    export let githubLink : string 
+    export let linkedInLink : string 
+    export let facebookLink : string
 
+    function openGithubLink(){
+        setTimeout(()=>{
+            window.open(githubLink, '_blank')
+        }, 300)
+    }
+    function openLinkedinLink(){
+        setTimeout(()=>{
+            window.open(linkedInLink, '_blank')
+        }, 300)
+    }
+    function openFacebookLink(){
+        setTimeout(()=>{
+            window.open(facebookLink, '_blank')
+        }, 300)
+    }
 </script>
 
 
 <div class="card aspect-[5/6] min-w-[20rem]">
     <div class="member-image">
-        <img src={memberImg} alt="" />
+    <img src={memberImg} alt="a member right here" />
     </div>
 
     <div class="member-name">
@@ -21,17 +41,17 @@
         <div>
             <!-- GITHUB -->
              {#if githubLink}
-                <a href={githubLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-github-fill"></i></a>
+                <div on:click={openGithubLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-github-fill"></i></div>
              {/if}
             
             <!-- LINKEDIN -->
              {#if linkedInLink}
-                <a href={linkedInLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-linkedin-box-fill"></i></a>
+                <div on:click={openLinkedinLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-linkedin-box-fill"></i></div>
              {/if}
             
             <!-- FACEBOOK -->
              {#if facebookLink}
-                 <a href={facebookLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-facebook-circle-fill"></i></a>
+                 <div on:click={openFacebookLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-facebook-circle-fill"></i></div>
              {/if}
         </div>
     </div>
@@ -108,12 +128,6 @@
         margin-bottom: 2.3rem;
         font-size: 1.5rem;
         /* color: red; */
-    }
-
-    .member-contacts a {
-        text-decoration: none; 
-        /* color: #b8b8b8; */
-        cursor: pointer;
     }
 
     .card:hover {
@@ -195,7 +209,7 @@
             padding-top: 2rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1rem;
         }
 
@@ -260,7 +274,7 @@
             width: 8rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1.2rem;
         }
 
@@ -400,8 +414,8 @@
             margin-top: .7rem;
         } */
 
-        .member-contacts a{
-            font-size: .8rem;
+        .member-contacts div{
+            font-size: 1rem;
         }
 
     } 
@@ -425,7 +439,7 @@
             font-size: .6rem;
         }
 
-        .member-contacts a{
+        .member-contacts div{
             font-size: .9rem;
         }
 

@@ -4,6 +4,24 @@
 	import Footer from '$lib/components/+Footer.svelte';
 	import logo from '$lib/images/logo.png';
 	import { afterNavigate } from '$app/navigation';
+	import { page } from '$app/stores';
+
+	let title = "ML Club"
+
+	$: {
+		if($page.url.pathname === "/"){
+			title = "ML Club NITS"
+		}
+		if($page.url.pathname === "/members"){
+			title = "Members | ML Club"
+		}
+		if($page.url.pathname === "/projects"){
+			title = "Projects | ML Club"
+		}
+		if($page.url.pathname === "/neurathon"){
+			title = "Neurathon | ML Club"
+		}
+	}
 
 	function closeDrawer() {
 		const drawerToggle = document.getElementById('my-drawer-3') as HTMLInputElement;
@@ -23,6 +41,10 @@
 		}
 	}
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <div class="app">
 	<div class="drawer">

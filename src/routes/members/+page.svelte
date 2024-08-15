@@ -4,8 +4,6 @@
     import Container from './Container.svelte'
 </script>
 
-
-
 <div class="pt-16">
     <Header />
     <Container />

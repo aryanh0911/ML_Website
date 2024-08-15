@@ -1,12 +1,29 @@
 <script lang="ts">
-	export let image:string
-	export let projectType:string
-	export let projectName:string
-	export let oneliner:string
+	export let image: string;
+	export let projectType: string;
+	export let projectName: string;
+	export let oneliner: string;
+	export let GithubLink: string;
+	export let PaperLink: string;
 
 	function handleClick() {
-		window.location.href = '/projects'
+		window.location.href = '/projects';
 	}
+
+	function openGithubLink(event){
+		event.stopPropagation();
+		setTimeout(()=>{
+			window.open(GithubLink, '_blank')
+		}, 300)
+	}
+
+	function openPaperLink(event){
+		event.stopPropagation();
+		setTimeout(()=>{
+			window.open(PaperLink, '_blank')
+		}, 300)
+	}
+
 </script>
 
 <div
@@ -33,10 +50,22 @@
 			{oneliner}
 		</div>
 		<div class="links flex flex-wrap gap-1 pt-2 text-sm">
-			{#if projectType === 'Project'}
+			<!-- {#if projectType === 'Project'}
 				<div class="inline border px-2 py-[.2rem] rounded-full hover:bg-[#ffffffb6] hover:text-[black]">Github</div>
 			{:else if projectType === 'Research Paper'}
 				<div class="inline border px-2 py-[.2rem] rounded-full hover:bg-[#ffffffb6] hover:text-[black]">Paper</div>
+			{/if} -->
+
+			{#if GithubLink}
+				<div class="hover:cursor-pointer text-[whitesmoke]/70 hover:text-white duration-300">
+					<i class="ri-github-fill text-xl" on:click={openGithubLink} />
+				</div>
+			{/if}
+
+			{#if PaperLink}
+				<div class="hover:cursor-pointer hover:text-white duration-300">
+					<i class="ri-file-list-3-fill text-xl" on:click={openPaperLink} />
+				</div>
 			{/if}
 		</div>
 	</div>

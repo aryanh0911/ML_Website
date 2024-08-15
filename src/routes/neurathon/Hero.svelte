@@ -1,7 +1,5 @@
 <script>
-	import cloneImg from '$lib/images/Neurathon/hero/clone-black.jpg';
-	import cyborgImg from '$lib/images/Neurathon/hero/cyborg-black.jpg';
-    import iceVariantEntityImg from '$lib/images/Neurathon/hero/iceVarintEntity_Blacked_2x.jpg'
+    //Assets
     import morphShapesGIF from '$lib/images/Neurathon/hero/morphShapes.gif'
 </script>
 
@@ -9,7 +7,7 @@
 	<div class="wrapper w-full ">
         <div class="image-wrapper">
             <div class="image-container relative">
-                <img src={iceVariantEntityImg} alt="" />
+                <enhanced:img src="$lib/images/Neurathon/hero/iceVarintEntity_Blacked_2x.jpg" fetchpriority="high" loading="eager" />
             </div>
         </div>
 		<div class="text">

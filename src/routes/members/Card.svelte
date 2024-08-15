@@ -130,12 +130,6 @@
         /* color: red; */
     }
 
-    .member-contacts a {
-        text-decoration: none; 
-        /* color: #b8b8b8; */
-        cursor: pointer;
-    }
-
     .card:hover {
         backdrop-filter: blur(6px);
         transform: translateY(-4px);
@@ -215,7 +209,7 @@
             padding-top: 2rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1rem;
         }
 
@@ -280,7 +274,7 @@
             width: 8rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1.2rem;
         }
 
@@ -420,8 +414,8 @@
             margin-top: .7rem;
         } */
 
-        .member-contacts a{
-            font-size: .8rem;
+        .member-contacts div{
+            font-size: 1rem;
         }
 
     } 
@@ -445,7 +439,7 @@
             font-size: .6rem;
         }
 
-        .member-contacts a{
+        .member-contacts div{
             font-size: .9rem;
         }
 

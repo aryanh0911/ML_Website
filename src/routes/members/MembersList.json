@@ -155,7 +155,10 @@
         "name": "KOUSHIK",
         "role": "EXECUTIVE MEMBER",
         "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fkoushik.jpg&w=384&q=75",
-        "memberType": "Member"
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 17,

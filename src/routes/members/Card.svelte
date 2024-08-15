@@ -4,11 +4,9 @@
 </script>
 
 
-
-
 <div class="card aspect-[5/6] min-w-[20rem]">
     <div class="member-image">
-        <img src={memberImg} alt="">
+        <img src={memberImg} alt="" />
     </div>
 
     <div class="member-name">
@@ -23,17 +21,17 @@
         <div>
             <!-- GITHUB -->
              {#if githubLink}
-                <a href={githubLink} class="hover:text-white"><i class="ri-github-fill"></i></a>
+                <a href={githubLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-github-fill"></i></a>
              {/if}
             
             <!-- LINKEDIN -->
              {#if linkedInLink}
-                <a href={linkedInLink} style="text-decoration: none; color: #b8b8b8"><i class="ri-linkedin-box-fill"></i></a>
+                <a href={linkedInLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-linkedin-box-fill"></i></a>
              {/if}
             
             <!-- FACEBOOK -->
              {#if facebookLink}
-                 <a href={facebookLink} style="text-decoration: none; color: #b8b8b8"><i class="ri-facebook-circle-fill"></i></a>
+                 <a href={facebookLink} class="text-[whitesmoke]/70 hover:text-white"><i class="ri-facebook-circle-fill"></i></a>
              {/if}
         </div>
     </div>

@@ -16,6 +16,8 @@
 					projectType={data.projectType}
 					projectName={data.projectName}
 					oneliner={data.shortDesc}
+					GithubLink={data.github}
+					PaperLink={data.paper}
 				/>
 			{/each}
 		</div>

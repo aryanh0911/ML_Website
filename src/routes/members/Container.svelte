@@ -1,6 +1,7 @@
 <script>
 	// @ts-nocheck
 
+	//Components
 	import Card from './Card.svelte';
 	import MembersList from './MembersList.json';
 
@@ -13,7 +14,8 @@
 	$: filteredMembers = MembersList.filter((member) => member.memberType === activeTab);
 </script>
 
-<section class="pt-16">
+<section class="pt-16 relative overflow-hidden">
+
     <div class="tabs">
         <button class:active-tab={activeTab === 'Member'} on:click={() => switchTab('Member')}>
             <p class="text-sm">Members</p>
@@ -76,7 +78,7 @@
 	}
 
 	section {
-		background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.605)) ,url(MembersAssets/images/topography-sharp.jpg);
+		background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.605)) ,url(MembersAssets/images/topography-sharp_avif.avif);
 		background-size: contain;
 	}
 

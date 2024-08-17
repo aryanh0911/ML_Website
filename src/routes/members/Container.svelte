@@ -80,6 +80,7 @@
 	section {
 		background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.605)) ,url(MembersAssets/images/topography-sharp_avif.avif);
 		background-size: contain;
+		background-attachment: fixed;
 	}
 
 	.container {

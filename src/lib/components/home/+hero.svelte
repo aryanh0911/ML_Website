@@ -1,6 +1,5 @@
 <script>
-	import cloneImg from '$lib/images/Neurathon/hero/clone-black.jpg';
-	import cyborgImg from '$lib/images/Neurathon/hero/cyborg-black.jpg';
+	//Assets
 	import inscribedGIF from '$lib/images/Home/inscribed-cropped.gif'
 
 	//Plugins ---
@@ -62,7 +61,7 @@
 	<div class="wrapper w-full">
 		<div class="image-wrapper">
 			<div class="hero-image-container relative">
-				<img src={cyborgImg} alt="" />
+				 <enhanced:img src="$lib/images/Neurathon/hero/cyborg-black.jpg" fetchprioriy="high" loading="eager" />
 			</div>
 		</div>
 		<div class="text">
@@ -119,8 +118,8 @@
 		scale: 1.4;
 		max-width: 470px;
 		@media (min-width: 768px) {
-			top: 60%;
-			scale: 1.55;
+			top: 58%;
+			scale: 1.42;
 		}
 		@media (min-width: 1280px) {
 			left: 8%;

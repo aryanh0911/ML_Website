@@ -1,14 +1,32 @@
-<script>
-    export let memberImg, memberName, memberRole, githubLink, linkedInLink, facebookLink;
+<script lang="ts">
+    export let memberImg : string 
+    export let memberName : string 
+    export let memberRole : string
+    export let githubLink : string 
+    export let linkedInLink : string 
+    export let facebookLink : string
 
+    function openGithubLink(){
+        setTimeout(()=>{
+            window.open(githubLink, '_blank')
+        }, 300)
+    }
+    function openLinkedinLink(){
+        setTimeout(()=>{
+            window.open(linkedInLink, '_blank')
+        }, 300)
+    }
+    function openFacebookLink(){
+        setTimeout(()=>{
+            window.open(facebookLink, '_blank')
+        }, 300)
+    }
 </script>
 
 
-
-
-<div class="card">
+<div class="card aspect-[5/6] min-w-[20rem]">
     <div class="member-image">
-        <img src={memberImg} alt="">
+    <img src={memberImg} alt="a member right here" />
     </div>
 
     <div class="member-name">
@@ -22,15 +40,19 @@
     <div class="member-contacts">
         <div>
             <!-- GITHUB -->
-            <a href={githubLink}><i class="ri-github-fill"></i></a>
+             {#if githubLink}
+                <div on:click={openGithubLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-github-fill"></i></div>
+             {/if}
             
             <!-- LINKEDIN -->
-            <a href={linkedInLink} style="text-decoration: none; color: #b8b8b8"><i class="ri-linkedin-box-fill"></i></a>
+             {#if linkedInLink}
+                <div on:click={openLinkedinLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-linkedin-box-fill"></i></div>
+             {/if}
             
             <!-- FACEBOOK -->
-            <a href={facebookLink} style="text-decoration: none; color: #b8b8b8"><i class="ri-facebook-circle-fill"></i></a>
-
-
+             {#if facebookLink}
+                 <div on:click={openFacebookLink} class="text-[whitesmoke]/70 hover:text-white hover:cursor-pointer"><i class="ri-facebook-circle-fill"></i></div>
+             {/if}
         </div>
     </div>
 </div>
@@ -44,17 +66,17 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');  
 
     .card {
-        background-color: rgba(0, 0, 0, 0.596);
+        background-color: rgba(35, 34, 34, 0.502);
         box-sizing: border-box;
         margin: 0 auto;
         padding-bottom: .8rem;
         /* padding: 3rem 1rem; */
         color: rgba(255, 255, 255, 0.863);
         /* border: 1px solid rgb(0, 0, 0); */
-        border-radius: 1.3rem;
+        border-radius: .8rem;
         /* padding: 1rem; */
-        max-width: 340px;
-        min-width: 340px;
+        /* max-width: 340px; */
+        /* min-width: 340px; */
         backdrop-filter: blur(1.5px);
         box-shadow: 0 8px 8px rgba(0, 0, 0, 0.546);
         transition: backdrop-filter 0.2s, transform .3s, box-shadow .3s;
@@ -71,9 +93,13 @@
         width: 11rem;
         height: 11rem;
         /* object-fit: cover; */;
-        border: 3px solid #ff7801;
+        border: 1px solid #ff7801;
         padding: .2rem;
         /* margin-bottom: 20rem; */
+
+        @media (min-width: 768px) {
+            border-width: 2px;
+        }
     }
 
     .member-name {
@@ -94,24 +120,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: .8rem;
+        gap: 1rem;
     }
 
     .member-contacts {
-        margin-top: 1.8rem;
+        margin-top: 1rem;
         margin-bottom: 2.3rem;
         font-size: 1.5rem;
         /* color: red; */
     }
 
-    .member-contacts a {
-        text-decoration: none; 
-        color: #b8b8b8;
-        cursor: pointer;
-    }
-
     .card:hover {
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(6px);
         transform: translateY(-4px);
         box-shadow: 4px 12px 9px rgba(0, 0, 0, 0.546);
     }
@@ -121,6 +141,7 @@
 
 
     /* MEDIA QUERIES */
+    
     @media (max-width: 1340px) {
         .card {
             min-width: 20rem;
@@ -170,11 +191,6 @@
             height: 8rem;
             width: 8rem;
         }
-
-        .member-contacts {
-            margin-top: 1.2rem;
-        }
-
     }   
 
     @media (max-width: 850px) {
@@ -193,7 +209,7 @@
             padding-top: 2rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1rem;
         }
 
@@ -258,7 +274,7 @@
             width: 8rem;
         }
 
-        .member-contacts a {
+        .member-contacts div {
             font-size: 1.2rem;
         }
 
@@ -295,7 +311,7 @@
             font-size: 1rem;
         }
         .member-role {
-            font-size: .8rem;
+            font-size: .6rem;
         }
 
     } 
@@ -321,6 +337,9 @@
         }
         .member-role {
             font-size: .8rem;
+        }
+        .member-contacts {
+            margin-top: .2rem;
         }
 
     } 
@@ -387,11 +406,16 @@
             font-size: .8rem;
         }
         .member-role {
-            font-size: .8rem;
+            font-size: .6rem;
+            /* padding-bottom: ; */
         }
 
-        .member-contacts a{
-            font-size: .8rem;
+        /* .member-contacts {
+            margin-top: .7rem;
+        } */
+
+        .member-contacts div{
+            font-size: 1rem;
         }
 
     } 
@@ -409,19 +433,19 @@
         }
 
         .member-name {
-            font-size: .56rem;
+            font-size: .7rem;
         }
         .member-role {
             font-size: .6rem;
         }
 
-        .member-contacts a{
-            font-size: .8rem;
+        .member-contacts div{
+            font-size: .9rem;
         }
 
-        .member-contacts {
+        /* .member-contacts {
             margin-top: .7rem;
-        }
+        } */
 
     } 
     

@@ -1,103 +1,203 @@
 
 [
     {
+        "id": 1,
         "name": "YASH TRIPATHI",
         "role": "SECRETARY",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fyash_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/yashTripathi.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 2,
         "name": "KAVII SURI",
         "role": "MENTOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fkavii_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/kaviiSuri.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 3,
         "name": "DARSH KAUSHIK",
         "role": "MENTOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fdarsh_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/darshKaushik.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 4,
         "name": "SHUVRA NEEL ROY",
         "role": "MENTOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fshuvra_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/shuvraneelRoy.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 5,
         "name": "SOHAN PAUL",
         "role": "DESIGNER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fsohan_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/sohanPaul.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
-        "name": "KRISHNAV RAJBANGSHI",
+        "id": 6,
+        "name": "KRISHNAV",
         "role": "MODERATOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fkrishnav_bhaiya.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/krishnavRajbangshi.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 7,
         "name": "ARNAV MISHRA",
         "role": "MODERATOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Farnav_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/arnavMishra.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 8,
         "name": "RAHUL SINGH",
         "role": "MODERATOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Frahul_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/rahulSingh.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 9,
         "name": "SACHIN AGRAWAL",
         "role": "MODERATOR",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fsachin_bhaiya.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/sachinAgarwal.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 10,
         "name": "NRITTIK SARMAH",
         "role": "DESIGNER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fnrittik_bhaiya.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/nrittikSarmah.webp",
+        "memberType": "Alumni",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 11,
         "name": "RUPSNIGDHA",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Frups.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/rupsnigdhaKashyap.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 12,
         "name": "ISHA",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fisha.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/ishaShree.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 13,
         "name": "KRISH",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fkrish.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/krishSharma.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 14,
         "name": "AYANANGSHU",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fayanangshu.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/ayanangshu.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 15,
         "name": "MRINAL",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fmrinal.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/mrinalBanik.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 16,
         "name": "KOUSHIK",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fkoushik.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/koushikReddy.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 17,
         "name": "PRIYANSHU",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fpriyanshu.jpeg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/priyanshuJha.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 18,
         "name": "BIKASH",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fbikash.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/bikashBaruah.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 19,
         "name": "ABHISHEK",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fabhishek.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/abhishekRanjan.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
+        "id": 20,
         "name": "PRADHUM",
         "role": "EXECUTIVE MEMBER",
-        "image": "https://mlclubnits.com/_next/image?url=%2Fimages%2Fpradhum.jpg&w=384&q=75"
+        "image": "/Members_Assets/Members_Images/pradhumThakur.webp",
+        "memberType": "Member",
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     }
 ]

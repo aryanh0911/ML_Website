@@ -26,7 +26,7 @@
 
 <div class="card aspect-[5/6] min-w-[20rem]">
     <div class="member-image">
-    <img src={memberImg} alt="a member right here" />
+    <img src={memberImg} class="object-cover" alt="a member right here" />
     </div>
 
     <div class="member-name">

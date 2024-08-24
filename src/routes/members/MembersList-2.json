@@ -1,4 +1,3 @@
-
 [
     {
         "id": 1,
@@ -6,9 +5,9 @@
         "role": "SECRETARY",
         "image": "/Members_Assets/Members_Images/yashTripathi.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/yash-tripathi-866b631b7/",
-        "facebookLink": "https://www.facebook.com/yash.tripathi.1656"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 2,
@@ -16,9 +15,9 @@
         "role": "MENTOR",
         "image": "/Members_Assets/Members_Images/kaviiSuri.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/kavii-suri-a23286194/",
-        "facebookLink": "https://www.facebook.com/kavii.suri.54"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 3,
@@ -26,9 +25,9 @@
         "role": "MENTOR",
         "image": "/Members_Assets/Members_Images/darshKaushik.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/darshkaushik/",
-        "facebookLink": "https://www.facebook.com/Darshkkaushik"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 4,
@@ -36,9 +35,9 @@
         "role": "MENTOR",
         "image": "/Members_Assets/Members_Images/shuvraneelRoy.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/shuvraneel-roy-958b29151/",
-        "facebookLink": "https://www.facebook.com/shuvraneel.roy"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 5,
@@ -46,9 +45,9 @@
         "role": "DESIGNER",
         "image": "/Members_Assets/Members_Images/sohanPaul.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/sohan-paul/",
-        "facebookLink": "https://www.facebook.com/paulsohan2"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 6,
@@ -56,9 +55,9 @@
         "role": "MODERATOR",
         "image": "/Members_Assets/Members_Images/krishnavRajbangshi.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/krishnav-rajbangshi/",
-        "facebookLink": "https://www.facebook.com/krishnav.rajbangshi"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 7,
@@ -66,9 +65,9 @@
         "role": "MODERATOR",
         "image": "/Members_Assets/Members_Images/arnavMishra.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/arnav-mishra-44171b175/",
-        "facebookLink": "https://www.facebook.com/arnav.mishra.13"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 8,
@@ -76,9 +75,9 @@
         "role": "MODERATOR",
         "image": "/Members_Assets/Members_Images/rahulSingh.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/rahul-singh-902514135/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100006000336044"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 9,
@@ -86,9 +85,9 @@
         "role": "MODERATOR",
         "image": "/Members_Assets/Members_Images/sachinAgarwal.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/sachin-agrawal-821b51216/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100058164285508"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 10,
@@ -96,9 +95,9 @@
         "role": "DESIGNER",
         "image": "/Members_Assets/Members_Images/nrittikSarmah.webp",
         "memberType": "Alumni",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/nrittik-sarmah/",
-        "facebookLink": ""
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 11,
@@ -106,9 +105,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/rupsnigdhaKashyap.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/rupsnigdha-kashyap-1342101a8/",
-        "facebookLink": "https://www.facebook.com/rupsnigdha.kashyap"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 12,
@@ -116,9 +115,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/ishaShree.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/isha-shree-0429b7222/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100076080344490"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 13,
@@ -126,9 +125,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/krishSharma.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/krish-sharma-1074b6224/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100075645423348"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 14,
@@ -136,9 +135,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/ayanangshu.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/ayanangshu-das-majumder-b84248234/",
-        "facebookLink": "https://www.facebook.com/ayanangshu.dasmajumder"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 15,
@@ -146,9 +145,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/mrinalBanik.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/mrinal-kangsa-banik-43b84a223/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100010417385639"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 16,
@@ -156,9 +155,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/koushikReddy.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/koushik-reddy-kandula-989716228/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100076327021794"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 17,
@@ -166,9 +165,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/priyanshuJha.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/priyanshu-jha-797182240/",
-        "facebookLink": ""
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 18,
@@ -176,9 +175,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/bikashBaruah.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/bikash-baruah-89426a231/",
-        "facebookLink": "https://www.facebook.com/bikash.baruah.23"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 19,
@@ -186,9 +185,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/abhishekRanjan.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/abhishek-ranjan-31044223a/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100009413930965"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 20,
@@ -196,9 +195,9 @@
         "role": "EXECUTIVE MEMBER",
         "image": "/Members_Assets/Members_Images/pradhumThakur.webp",
         "memberType": "Member",
-        "githubLink": "",
-        "linkedInLink": "https://www.linkedin.com/in/pradhum-thakur-456094244/",
-        "facebookLink": "https://www.facebook.com/pradhum.thakur.1238"
+        "githubLink": "https://www.github.com",
+        "linkedInLink": "https://www.linkedin.com",
+        "facebookLink": "https://www.facebook.com"
     },
     {
         "id": 21,
@@ -214,7 +213,7 @@
         "id": 22,
         "name": "Koushiki Dey",
         "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/koushikiDey.webp",
+        "image": "/Members_Assets/Members_Images/koushikiDey.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/koushikidey",
         "linkedInLink": "https://www.linkedin.com/in/koushiki-dey-843337263/",
@@ -224,7 +223,7 @@
         "id": 23,
         "name": "Shwetangshu Biswas",
         "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/shwetangshuBiswas.webp",
+        "image": "/Members_Assets/Members_Images/shwetangshuBiswas.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/Shwetangshu",
         "linkedInLink": "https://www.linkedin.com/shwetangshu-biswas",
@@ -232,19 +231,9 @@
     },
     {
         "id": 24,
-        "name": "Aryan Hazarika",
-        "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/aryanHazarika.webp",
-        "memberType": "Member",
-        "githubLink": "https://github.com/aryanh0911",
-        "linkedInLink": "https://www.linkedin.com/in/aryan-hazarika/",
-        "facebookLink": "https://www.facebook.com/profile.php?id=100011497003001"
-    },
-    {
-        "id": 24,
         "name": "Varun Damodaran",
         "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/varunDamodaran.webp",
+        "image": "/Members_Assets/Members_Images/varunDamodaran.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/VarunDamodaran",
         "linkedInLink": "https://www.linkedin.com/in/varun-damodaran-694492253/",
@@ -254,7 +243,7 @@
         "id": 25,
         "name": "Satyam Das",
         "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/satyamDas.webp",
+        "image": "/Members_Assets/Members_Images/satyamDas.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/Dasx22",
         "linkedInLink": "https://www.linkedin.com/in/satyamdas03",
@@ -264,7 +253,7 @@
         "id": 26,
         "name": "Priyanka Kumari",
         "role": "MODERATOR",
-        "image": "/Members_Assets/Members_Images/batch-26/priyankaKumari.webp",
+        "image": "/Members_Assets/Members_Images/priyankaKumari.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/coderp233",
         "linkedInLink": "https://www.linkedin.com/in/priyanka-kumari-181776257/",
@@ -274,7 +263,7 @@
         "id": 27,
         "name": "Aditya Sharma",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/adityaSharma.webp",
+        "image": "/Members_Assets/Members_Images/adityaSharma.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/thunderstormadi",
         "linkedInLink": "https://www.linkedin.com/in/aditya-sharma-1a96912a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -284,7 +273,7 @@
         "id": 28,
         "name": "Adwaith Jayan",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/adwaithJayan.webp",
+        "image": "/Members_Assets/Members_Images/adwaithJayan.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/AdwaithCoder",
         "linkedInLink": "https://www.linkedin.com/in/adwaith-jayan-6356b7289/",
@@ -294,7 +283,7 @@
         "id": 29,
         "name": "Agniv Kashyap",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/agnivKashyap.webp",
+        "image": "/Members_Assets/Members_Images/agnivKashyap.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/agniv-kashyap",
         "linkedInLink": "https://www.linkedin.com/in/agniv-kashyap-3632a6315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -304,7 +293,7 @@
         "id": 30,
         "name": "Amita Bhowmik",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/amitaBhowmik.webp",
+        "image": "/Members_Assets/Members_Images/amitaBhowmik.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/Amita-00",
         "linkedInLink": "https://www.linkedin.com/in/amita-bhowmik-264362315/",
@@ -314,7 +303,7 @@
         "id": 31,
         "name": "Ankita Devi",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/ankitaDevi.webp",
+        "image": "/Members_Assets/Members_Images/ankitaDevi.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/ankitadevi",
         "linkedInLink": "https://www.linkedin.com/in/ankita-devi-24421726a/",
@@ -324,7 +313,7 @@
         "id": 32,
         "name": "Bhargav Jyoti Boruah",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/bhargavJyotiBoruah.webp",
+        "image": "/Members_Assets/Members_Images/bhargavJyotiBoruah.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/Bjboruah",
         "linkedInLink": "https://www.linkedin.com/in/bhargav-jyoti-boruah-778b21282/",
@@ -334,7 +323,7 @@
         "id": 33,
         "name": "Bignya Protim Gogoi",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/bignyaProtimGogoi.webp",
+        "image": "/Members_Assets/Members_Images/bignyaProtimGogoi.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/bignya23",
         "linkedInLink": "https://www.linkedin.com/in/bignya/",
@@ -342,9 +331,9 @@
     },
     {
         "id": 34,
-        "name": "Champakjyoti Konwar",
+        "name": "Champakjyoti Konwar (CJ Konwar)",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/champakjyotiKonwar.webp",
+        "image": "/Members_Assets/Members_Images/champakjyotiKonwar.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/CJKonwar",
         "linkedInLink": "https://www.linkedin.com/in/champakjyoti-konwar-b94240292",
@@ -354,7 +343,7 @@
         "id": 35,
         "name": "Divyanshi Singh",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/divyanshiSingh.webp",
+        "image": "/Members_Assets/Members_Images/divyanshiSingh.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/Divyanshi2005",
         "linkedInLink": "https://www.linkedin.com/in/divyanshi-singh-682128290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -364,7 +353,7 @@
         "id": 36,
         "name": "Ishan Patel",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/ishanPatel.webp",
+        "image": "/Members_Assets/Members_Images/ishanPatel.webp",
         "memberType": "Member",
         "githubLink": "https://github.com/ishanpatelraj",
         "linkedInLink": "https://www.linkedin.com/in/ishan-patel-541051292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -374,7 +363,7 @@
         "id": 37,
         "name": "Jey Nang Gogoi",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/jeyNangGogoi.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Jeynang2024",
         "linkedInLink": "https://www.linkedin.com/in/jey-nang-gogoi-7830a92b1",
@@ -382,9 +371,9 @@
     },
     {
         "id": 38,
-        "name": "Khumanthem Devi",
+        "name": "Khumanthem Radhapyari Devi",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/khumanthemRadhapyariDevi.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/RadhapyariDevi",
         "linkedInLink": "https://www.linkedin.com/in/radhapyari-khumanthem-15949928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -394,7 +383,7 @@
         "id": 39,
         "name": "Koustubh Mishra",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/koustubhMishra.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/koustubh7712",
         "linkedInLink": "https://www.linkedin.com/in/koustubh-mishra-37147728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -404,7 +393,7 @@
         "id": 40,
         "name": "Mainak Das",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/mainakDas.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/tech-hunter-mainak",
         "linkedInLink": "https://www.linkedin.com/in/mainakdasnits",
@@ -414,7 +403,7 @@
         "id": 41,
         "name": "Mourakshi Thakuria",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/mourakshiThakuria.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/mourakshi",
         "linkedInLink": "https://www.linkedin.com/in/mourakshi-thakuria-653978287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -424,7 +413,7 @@
         "id": 42,
         "name": "Mrinmoy Koiri",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/mrinmoyKoiri.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/MK10UNoY",
         "linkedInLink": "https://www.linkedin.com/in/mrinmoy-koiri-a1a03327b/",
@@ -434,7 +423,7 @@
         "id": 43,
         "name": "Nabarun Dutta Talukdar",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/nabarunDuttaTalukdar.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Nabarun17",
         "linkedInLink": "https://www.linkedin.com/in/nabarun-talukdar-606295278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -444,7 +433,7 @@
         "id": 44,
         "name": "Sanjogita Bhagowati",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/sanjogitaBhagowati.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/dola-11",
         "linkedInLink": "https://www.linkedin.com/in/sanjogita-bhagowati-79b2422aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -454,7 +443,7 @@
         "id": 45,
         "name": "Shriya Pandey",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/shriyaPandey.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Shhriiyya",
         "linkedInLink": "https://www.linkedin.com/in/shriya-pandey-6b7718282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -464,7 +453,7 @@
         "id": 46,
         "name": "Sibajit Mazumder",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/sibajitMazumder.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/kaneki-desu",
         "linkedInLink": "https://www.linkedin.com/in/sibajit-mazumder-b076b5274/",
@@ -474,7 +463,7 @@
         "id": 47,
         "name": "Sidhesh Tavare",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/sidheshTavare.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/sidhesh-tavare",
         "linkedInLink": "https://www.linkedin.com/in/sidheshtavare/",
@@ -484,7 +473,7 @@
         "id": 48,
         "name": "Sneha Tyagi",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/snehaTyagi.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Snehaty",
         "linkedInLink": "https://www.linkedin.com/in/sneha-tyagi-482692289",
@@ -494,7 +483,7 @@
         "id": 49,
         "name": "Tahmid Choudhury",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/tahmidChoudhury.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Tahmid019",
         "linkedInLink": "https://www.linkedin.com/in/tahmid019",
@@ -504,7 +493,7 @@
         "id": 50,
         "name": "Tanbir Aproose Laskar",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/tanbirAprooseLaskar.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/judgeofmyown",
         "linkedInLink": "https://www.linkedin.com/in/tanbir-laskar-41a62728b/",
@@ -514,7 +503,7 @@
         "id": 51,
         "name": "Ujjwal Saxena",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/ujjwalSaxena.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/UJJWAL-2027",
         "linkedInLink": "https://www.linkedin.com/in/ujjwal-saxena-2a19922b4/",
@@ -524,7 +513,7 @@
         "id": 52,
         "name": "Yuvraj Parmar",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/yuvrajParmar.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/Yuvi-me-code",
         "linkedInLink": "https://www.linkedin.com/in/yuvraj-parmar-bb0009281/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhKdYIIsyRqyJ%2F%2FzEBQWoag%3D%3D",
@@ -534,7 +523,7 @@
         "id": 53,
         "name": "Zubair Rahman",
         "role": "MEMBER",
-        "image": "/Members_Assets/Members_Images/batch-27/zubairRahman.webp",
+        "image": "",
         "memberType": "Member",
         "githubLink": "https://github.com/blakprinz",
         "linkedInLink": "https://www.linkedin.com/in/zubair-rahman-9843a1297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

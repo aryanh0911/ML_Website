@@ -8,7 +8,7 @@
 <section class="">
 	<div class="slider-wrapper flex justify-center">
 		<div
-			class="slider flex flex-nowrap gap-2 overflow-x-scroll max-w-[80rem] pb-[.3rem] snap-x snap-mandatory"
+			class="slider flex flex-nowrap gap-4 overflow-x-scroll  overflow-y-visible max-w-[80rem] pb-[.3rem] pt-2 snap-x snap-mandatory"
 		>
 			{#each CardData as data, index}
 				<Card

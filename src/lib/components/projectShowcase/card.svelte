@@ -27,10 +27,10 @@
 </script>
 
 <div
-	class="project-showcase-card card shrink-0 snap-center aspect-[5/4.5] w-[17.7rem] md:w-[19.75rem] bg-[#191919] rounded-[4px] overflow-hidden relative"
+	class="project-showcase-card  shrink-0 snap-center aspect-[5/5] md:aspect-[5/4] w-[16.5rem] md:w-[19.75rem] bg-[#191919] rounded-[6px] overflow-x-hidden relative"
 	on:click={handleClick}
 >
-	<div class="image-container h-[90%] overflow-hidden relative">
+	<!-- <div class="image-container h-[90%] overflow-hidden relative">
 		<img src={image} alt="overview of project" class="object-cover" />
 
 		<div class="tag flex justify-end absolute bottom-2 right-2 mix-blend-hard-light">
@@ -38,33 +38,33 @@
 				{projectType}
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div class="p-2 flex flex-col h-full">
+	<div class="p-2 flex flex-col h-full justify-around">
 		<div class="">
 			<div class="font-bold">
 				{projectName}
 			</div>
 		</div>
-		<div class="pt-2 text-sm flex-grow">
+
+		<div class="w-fit border border-dashed rounded-full px-2 py-1 text-xs text-white opacity-60">
+			{projectType}
+		</div>
+		
+		<div class="pt-2 text-sm">
 			{oneliner}
 		</div>
+		
 		<div class="links flex flex-wrap gap-1 pt-2 text-sm">
-			<!-- {#if projectType === 'Project'}
-				<div class="inline border px-2 py-[.2rem] rounded-full hover:bg-[#ffffffb6] hover:text-[black]">Github</div>
-			{:else if projectType === 'Research Paper'}
-				<div class="inline border px-2 py-[.2rem] rounded-full hover:bg-[#ffffffb6] hover:text-[black]">Paper</div>
-			{/if} -->
-
 			{#if GithubLink}
 				<div class="hover:cursor-pointer text-[whitesmoke]/70 hover:text-white duration-300">
-					<i class="ri-github-fill text-xl" on:click={openGithubLink} />
+					<i class="ri-github-fill text-2xl" on:click={openGithubLink} />
 				</div>
 			{/if}
 
 			{#if PaperLink}
 				<div class="hover:cursor-pointer hover:text-white duration-300">
-					<i class="ri-file-list-3-fill text-xl" on:click={openPaperLink} />
+					<i class="ri-file-list-3-fill text-2xl" on:click={openPaperLink} />
 				</div>
 			{/if}
 		</div>
@@ -90,5 +90,16 @@
 	}
 	.card:hover img {
 		scale: 1.05;
+	}
+
+	.project-showcase-card {
+		background: url("/topography-sharp_avif.avif");
+		background-size: cover;
+		transition: background-position-y .25s;
+	}
+	.project-showcase-card:hover {
+		background-position-y: .5%;
+		border: 1px solid var(--primary);
+		box-shadow: 10px 10px 40px rgba(255, 166, 0, 0.144);
 	}
 </style>

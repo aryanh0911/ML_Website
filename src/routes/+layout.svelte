@@ -93,11 +93,18 @@
 		</div>
 		<div class="drawer-side z-[9999]">
 			<label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay" />
-			<ul class="menu p-4 w-64 md:w-96 min-h-full bg-base-200/80 backdrop-blur-lg rounded-lg border-r-2 border-gray">
+			<ul class="menu flex gap-4 p-4 pt-20 w-64 md:w-96 min-h-full bg-base-200/80 backdrop-blur-lg rounded-lg border-r-2 border-gray">
 				{#each navlinks as link}
-					<li><a href={link.url} on:click={handleNavClick}>{link.title}</a></li>
+					<li class="drawer-text font-semibold"><a href={link.url} on:click={handleNavClick}>{link.title}</a></li>
 				{/each}
 			</ul>
 		</div>
 	</div>
 </div>
+
+
+<style>
+	.drawer-text {
+		font-family: "Poppins", "Montserrat";
+	}
+</style>

@@ -1,9 +1,8 @@
 <footer class="footer footer-center p-10 bg-black text-sm border-t border-dashed border-[#ffffff28]">
-	<nav class="grid grid-flow-col gap-4">
-		<a class="link link-hover" href="/">About us</a>
+	<!-- <nav class="grid grid-flow-col gap-4">
+		<a class="link link-hover" href="#About-Us">About us</a>
 		<a class="link link-hover" href="/">Contact</a>
-		<a class="link link-hover" href="/">Jobs</a>
-	</nav>
+	</nav> -->
 	<nav class="">
 		<div class="grid grid-flow-col gap-4">
 			<a href="/"

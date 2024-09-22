@@ -5,8 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Machine Learning Club, NIT Silchar" />
 </svelte:head>
 
 <section>

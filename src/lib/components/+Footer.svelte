@@ -17,7 +17,7 @@
 					/></svg
 				></a
 			>
-			<a href="/"
+			<a href="https://www.youtube.com/@mlclubnits"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="18"
@@ -29,7 +29,7 @@
 					/></svg
 				></a
 			>
-			<a href="/"
+			<a href="https://www.facebook.com/mlclubNITS/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="18"

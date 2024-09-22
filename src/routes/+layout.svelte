@@ -10,16 +10,16 @@
 
 	$: {
 		if($page.url.pathname === "/"){
-			title = "ML Club NITS"
+			title = "Home | ML Club NITS"
 		}
 		if($page.url.pathname === "/members"){
-			title = "Members | ML Club"
+			title = "Members | ML Club NITS"
 		}
 		if($page.url.pathname === "/projects"){
-			title = "Projects | ML Club"
+			title = "Projects | ML Club NITS"
 		}
 		if($page.url.pathname === "/neurathon"){
-			title = "Neurathon | ML Club"
+			title = "Neurathon | ML Club NITS"
 		}
 	}
 
